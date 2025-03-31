@@ -1,0 +1,241 @@
+{% extends 'base.html' %} 
+{% load static %}
+
+{% block title %}Welcome|Carttart-Realestate{% endblock %} 
+{% block logo_image %}{% static 'images/r-g-logo.png' %}{% endblock logo_image %}
+{% block content %}
+<link rel="stylesheet" href="{% static 'css/realestate.css' %}" />
+
+<!-- Hero Section with Video Background -->
+<section class="hero">
+    <video autoplay muted loop id="hero-video">
+        <source src="{% static 'videos/realestate.mp4' %}" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <div class="hero-content">
+        <h1>Real Estate, <br>Real Growth.</h1>
+        <p>Smart marketing and expert consulting for your property success.</p>
+    </div>
+</section>
+
+<!-- MAIN CONTENT -->
+<main id="content">
+    <section class="bakgground">
+        <div class="boxcontainer">
+            <div class="main-content">
+                <!-- First Image and Content -->
+                <div class="card_main">
+                    <div class="container_card">
+                        <div class="container_card_content">
+                            <h1 class="card-title2">RESIDENTIAL APARTMENT</h1>
+                            <h5 class="card-description1">
+                                Residential apartments offer modern living with state-of-the-art amenities, 
+                                providing comfort, security, and convenience. These properties are designed 
+                                to meet diverse lifestyle needs, featuring spacious interiors, elegant 
+                                architecture, and proximity to essential services.
+                            </h5>
+                        </div>
+                        <div class="container_card_pofilephoto2">
+                            <img src="{% static 'images/realestate-1.png' %}" class="profile-img2" alt="Residential Apartments">
+                        </div>
+                    </div>
+                </div>
+        
+                <!-- Second Image and Content -->
+                <div class="card_main2">
+                    <div class="container_card">
+                        <div class="container_card_pofilephoto1">
+                            <img src="{% static 'images/builder-2.png' %}" class="profile-img2" alt="Builder Floors">
+                        </div>
+                        <div class="container_card_content2">
+                            <h1 class="card-title">INDEPENDENT / BUILDER FLOORS</h1>
+                            <h5 class="card-description2">
+                                Independent floors, also known as builder floors, are standalone residential units within a 
+                                small, low-rise building (typically 2-4 floors), where each floor is a separate property. 
+                                These are popular in urban and suburban areas, offering more privacy than apartments while 
+                                being more affordable than independent villas.
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="main-content">
+                <!-- First Image and Content -->
+                <div class="card_main">
+                    <div class="container_card">
+                        <div class="container_card_content">
+                            <h1 class="card-title2">RESIDENTIAL LAND</h1>
+                            <h5 class="card-description1">
+                                Residential land provides a prime opportunity for buyers looking to build 
+                                their dream home or make a strategic investment. With flexible development 
+                                options, these plots offer the freedom to design personalized spaces 
+                                tailored to individual preferences.
+                            </h5>
+                        </div>
+                        <div class="container_card_pofilephoto2">
+                            <img src="{% static 'images/realestate-2.png' %}" class="profile-img2" alt="Residential Land">
+                        </div>
+                    </div>
+                </div>
+        
+                <!-- Second Image and Content -->
+                <div class="card_main2">
+                    <div class="container_card">
+                        <div class="container_card_pofilephoto1">
+                            <img src="{% static 'images/villa-4.png' %}" class="profile-img2" alt="Independent Villas">
+                        </div>
+                        <div class="container_card_content2">
+                            <h1 class="card-title">INDEPENDENT HOUSE / VILLAS</h1>
+                            <h5 class="card-description2">
+                                Independent houses, or villas, are standalone residential properties with private land, 
+                                offering maximum privacy, space, and customization freedom. These homes are designed 
+                                for those who prioritize exclusivity, larger living areas, gardens, and sometimes even 
+                                private pools or driveways.
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="main-content">
+                <!-- First Image and Content -->
+                <div class="card_main">
+                    <div class="container_card">
+                        <div class="container_card_content">
+                            <h1 class="card-title2">1 RK / STUDIO APARTMENTS</h1>
+                            <h5 class="card-description1">
+                                1RK (One Room Kitchen) and studio apartments are compact, single-room living 
+                                spaces designed for individuals or couples seeking affordable, low-maintenance 
+                                housing. These units combine a bedroom, living area, and kitchenette into one 
+                                open space, with a separate bathroom.
+                            </h5>
+                        </div>
+                        <div class="container_card_pofilephoto2">
+                            <img src="{% static 'images/studio-5.jpg' %}" class="profile-img2" alt="Studio Apartments">
+                        </div>
+                    </div>
+                </div>
+        
+                <!-- Second Image and Content -->
+                <div class="card_main2">
+                    <div class="container_card">
+                        <div class="container_card_pofilephoto1">
+                            <img src="{% static 'images/farmhouses-6.jpg' %}" class="profile-img2" alt="Farmhouses">
+                        </div>
+                        <div class="container_card_content2">
+                            <h1 class="card-title">FARMHOUSES</h1>
+                            <h5 class="card-description2">
+                                Farmhouses are countryside residential properties, often set on large plots 
+                                of agricultural or semi-rural land, offering a peaceful retreat from city life. 
+                                These homes combine traditional architecture with modern comforts, featuring 
+                                spacious interiors, open verandas, gardens, and sometimes even farmland or orchards.
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<!-- Collage -->
+<div class="box">
+    <div class="box-content">
+        <h1>REALESTATE</h1>
+        <p>
+            Real estate is a dynamic and ever-evolving industry that offers
+            lucrative opportunities for investors, buyers, and sellers alike.
+            Whether it's residential, commercial, or industrial properties, 
+            the market thrives on strategic planning, expert consulting, and 
+            innovative marketing approaches.
+        </p>
+    </div>
+
+    <div class="collage">
+        <!-- Square Grid -->
+        <div class="square-grid">
+            <!-- Div 1 -->
+            <div class="div1">
+                <img src="{% static 'images/realestate-collage1.png' %}" alt="Real Estate Collage 1">
+                {% comment %} <button class="image-button">Learn More</button> {% endcomment %}
+            </div>
+            <!-- Div 2 -->
+            <div class="div2">
+                <img src="{% static 'images/realestate-collage2.png' %}" alt="Real Estate Collage 2">
+                {% comment %} <button class="image-button">Learn More</button> {% endcomment %}
+            </div>
+            <!-- Div 3 -->
+            <div class="div3">
+                <img src="{% static 'images/realestate-collage3.png' %}" alt="Real Estate Collage 3">
+                {% comment %} <button class="image-button">Learn More</button> {% endcomment %}
+            </div>
+            <!-- Div 4 -->
+            <div class="div4">
+                <img src="{% static 'images/realestate-collage4.png' %}" alt="Real Estate Collage 4">
+                {% comment %} <button class="image-button">Learn More</button> {% endcomment %}
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Card Section -->
+<div class="latest-card">
+    <div class="Scroll">
+        <h2>Discover Your Dream Property</h2>
+        <div class="card-grid">
+            <!-- card 1 -->
+            <div class="card active">
+                <img src="{% static 'images/realestate-card3.png' %}" alt="Spacious Retreat">
+                <div class="card-content">
+                    <h3>Blog 1</h3>
+                    <p>Spacious retreat with nature, luxury, and modern living amenities.</p>
+                </div>
+                <a href="#" class="read-more">Explore More</a>
+            </div>
+    
+            <!-- card 2 -->
+            <div class="card">
+                <img src="{% static 'images/realestate-card2.png' %}" alt="Diverse Real Estate">
+                <div class="card-content">
+                    <h3>Blog 2</h3>
+                    <p>Diverse real estate options for investment, security, and lifestyle enhancement.</p>
+                </div>
+                <a href="#" class="read-more">Explore More</a>
+            </div>
+    
+            <!-- card 3 -->
+            <div class="card">
+                <img src="{% static 'images/realestate-card1.png' %}" alt="Elegant Villas">
+                <div class="card-content">
+                    <h3>Blog 3</h3>
+                    <p>Elegant villas offering privacy, comfort, and premium living experiences.</p>
+                </div>
+                <a href="#" class="read-more">Explore More</a>
+            </div>
+    
+            <!-- card 4 -->
+            <div class="card">
+                <img src="{% static 'images/realestate-card4.png' %}" alt="Urban Living">
+                <div class="card-content">
+                    <h3>Blog 4</h3>
+                    <p>Affordable, convenient urban living with connectivity and modern facilities.</p>
+                </div>
+                <a href="#" class="read-more">Explore More</a>
+            </div>
+    
+            <!-- card 5 -->
+            <div class="card">
+                <img src="{% static 'images/realestate-card5.png' %}" alt="Private Islands">
+                <div class="card-content">
+                    <h3>Blog 5</h3>
+                    <p>Exclusive private islands with breathtaking views and luxury residences.</p>
+                </div>
+                <a href="#" class="read-more">Explore More</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="{% static 'js/realestate.js' %}"></script>
+{% endblock content %}
